@@ -1,0 +1,22 @@
+
+package id.blits.Tugas;
+
+public class Lingkaran {
+    
+    String nama;
+    double Jari2;
+    double Luas;
+    final double phi=3.14;
+    
+    void tampilLingkaran(){
+        Luas=phi*Jari2*Jari2;
+        System.out.println("Menghitung Luas Lingkaran");
+        System.out.println("Jari-Jari ="+Jari2);
+        System.out.println("phi ="+phi);
+        System.out.println("Luas ="+Luas+"\n");
+
+
+
+    }
+    
+}
