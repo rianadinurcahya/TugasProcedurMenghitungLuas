@@ -1,0 +1,26 @@
+
+package id.blits.Tugas;
+
+
+public class Segitiga {
+    double Alas, Tinggi;
+    double Luas;
+    final double St=0.5;
+    String nama;
+    
+    void tampilSegiTiga(){
+    Luas=St*Alas*Tinggi;
+    System.out.println("Menghitung Luas Segi Tiga");
+    System.out.println("alas : "+Alas);
+    System.out.println("Tinggi : "+Tinggi);
+    System.out.println("Luas : "+Luas+"\n");
+    
+
+
+
+
+
+
+}
+    
+}
